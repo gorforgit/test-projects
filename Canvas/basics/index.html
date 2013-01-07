@@ -15,11 +15,18 @@
            ctx.clearRect(0,0,cnvWidth,cnvHeight);
            ctx.strokeRect(15,15,cnvWidth-30,cnvHeight-30);
            ctx.strokeRect(18,18,cnvWidth-36,cnvHeight-36);
-           
+
+           //Отрисовка квадратов
+           for(i=0;i<8;i+=2)
+               for(j=0;j<8;j+=2){
+               ctx.fillRect(19+i*83,19+j*83,83,83);
+               ctx.fillRect(102+i*83,102+j*83,83,83);
+           }
+           ctx.arc()
        }
     </script>
 </head>
 <body onload="canv();">
-    <canvas id="cnv" height="450px" width="700px" ></canvas>
+    <canvas id="cnv" height="700px" width="700px" ></canvas>
 </body>
 </html>
