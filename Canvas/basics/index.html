@@ -2,8 +2,38 @@
 <html>
 <head>
     <title>Basics for canvas</title>
-</head>
-<body>
+    <meta http-equiv="content/type" content="text/html; charset=utf-8">
+    <script type="text/javascript">
+       function canv(){
+           var cnv = document.getElementById('cnv');
+           var ctx = cnv.getContext('2d');
 
+           //Переменные высоты и ширины
+           var cnvWidth = cnv.width;
+           var cnvHeight = cnv.height;
+
+           ctx.clearRect(0,0,cnvWidth,cnvHeight);
+
+           //Рамка
+           ctx.strokeRect(15,15,cnvWidth-30,cnvHeight-30);
+           ctx.strokeRect(18,18,cnvWidth-36,cnvHeight-36);
+
+           //Отрисовка квадратов
+           for(i=0;i<8;i+=2)
+               for(j=0;j<8;j+=2){
+               ctx.fillRect(19+i*83,19+j*83,83,83);
+               ctx.fillRect(102+i*83,102+j*83,83,83);
+           }
+       }
+    </script>
+    <style type="text/css">
+        canvas{
+            float: left;
+        }
+    </style>
+</head>
+<body onload="canv();">
+    <canvas id="cnv" height="700px" width="700px" ></canvas>
+    <a href="img-canvas.html"><button>Next</button></a>
 </body>
 </html>

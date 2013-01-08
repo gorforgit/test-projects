@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draw Image</title>
+    <script type="text/javascript">
+        function image(){
+            var cnv = document.getElementById('image-cnv');
+            var ctx = cnv.getContext('2d');
+
+            var img = new Image();//создаём новый обьект изображения
+            img.src = 'images.jpg';
+
+            img.onload = function(){
+                ctx.drawImage(img,50,50,350,240);
+            }
+        }
+    </script>
+    <style type="text/css">
+        canvas{
+            float: left;
+        }
+    </style>
+</head>
+<body onload="image();">
+    <canvas id="image-cnv" width="700px" height="700px"></canvas>
+    <a href="index.html"><button>Prev</button></a>
+    <a href=""><button>Next</button></a>
+</body>
+</html>
