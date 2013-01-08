@@ -13,7 +13,7 @@ header h2{
 }
 /*---- Content ----*/
 section{
-    position: absolute;
+    position: relative;
     width: 100%;
     height: auto !important;
     min-height: 678px;
@@ -31,33 +31,45 @@ section article{
     background: #F75802;
     border-radius: 50%;
     opacity: 1;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.27);
     -webkit-animation-name: 'movement';
     -webkit-animation-timing-function: linear;
     -webkit-animation-fill-mode: both;
-    -webkit-animation-duration: 3s;
+    -webkit-animation-duration: 1.5s;
     animation-name: 'movement';
     animation-fill-mode: both;
     animation-timing-function: linear;
-    animation-duration: 3s;
+    animation-duration: 1.5s;
 }
 @-webkit-keyframes 'movement'{
     from{
-        width: 50px;
-        height: 50px;
-        bottom: -50px;
+        width: 10px;
+        height: 10px;
+        bottom: 50%;
         left: 50%;
-        margin-left: -25px;
+        margin-left: -5px;
+        margin-bottom: -5px;
         opacity: 0;
         -webkit-animation-timing-function: linear;
     }
-    50%{
-        width: 200px;
-        height: 200px;
-        bottom: 25%;
+    25%{
+        width: 90px;
+        height: 90px;
+        bottom: 50%;
         left: 50%;
-        opacity: 0.6;
-        margin-left: -100px;
-        margin-bottom: -100px;
+        margin-left: -45px;
+        margin-bottom: -45px;
+        opacity: 0.18;
+        -webkit-animation-timing-function: linear;
+    }
+    50%{
+        width: 180px;
+        height: 180px;
+        bottom: 50%;
+        left: 50%;
+        margin-bottom: -90px;
+        margin-left: -90px;
+        opacity: 0.35;
         -webkit-animation-timing-function: linear;
     }
     100%{
@@ -65,30 +77,41 @@ section article{
         height: 350px;
         bottom: 50%;
         left: 50%;
-        opacity: 1;
-        margin-left: -175px;
         margin-bottom: -175px;
+        margin-left: -175px;
+        opacity: 1;
         -webkit-animation-timing-function: linear;
     }
 }
 @keyframes 'movement'{
     from{
-        width: 50px;
-        height: 50px;
-        bottom: -50px;
+        width: 10px;
+        height: 10px;
+        bottom: 50%;
         left: 50%;
-        margin-left: -25px;
+        margin-left: -5px;
+        margin-bottom: -5px;
         opacity: 0;
         animation-timing-function: linear;
     }
-    50%{
-        width: 175px;
-        height: 175px;
-        bottom: 0;
+    25%{
+        width: 90px;
+        height: 90px;
+        bottom: 50%;
         left: 50%;
-        opacity: 0.6;
-        margin-left: -87px;
-        margin-bottom: -87px;
+        margin-left: -45px;
+        margin-bottom: -45px;
+        opacity: 0.18;
+        animation-timing-function: linear;
+    }
+    50%{
+        width: 180px;
+        height: 180px;
+        bottom: 50%;
+        left: 50%;
+        margin-bottom: -90px;
+        margin-left: -90px;
+        opacity: 0.35;
         animation-timing-function: linear;
     }
     100%{
@@ -96,9 +119,9 @@ section article{
         height: 350px;
         bottom: 50%;
         left: 50%;
-        opacity: 1;
-        margin-left: -175px;
         margin-bottom: -175px;
+        margin-left: -175px;
+        opacity: 1;
         animation-timing-function: linear;
     }
 }
