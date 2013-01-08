@@ -1,4 +1,24 @@
+body{
+    color: #f0f0f0;
+}
 header{
     width: 100%;
-    height: ;
+    height: 50px;
+    background: #F75802;
+}
+header h2{
+    padding: 5px 20px 5px 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.9em;
+}
+section{
+    position: relative;
+    width: 100%;
+    height: auto !important;
+    min-height: 678px;
+    max-height: 1446px;
+}
+footer{
+  width: 100%;
+  height: 40px;
 }
