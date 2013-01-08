@@ -2,9 +2,11 @@ body{
     color: #f0f0f0;
 }
 header{
+    position:relative;
     width: 100%;
     height: 50px;
     background: #F75802;
+    z-index:1;
 }
 header h2{
     padding: 5px 20px 5px 20px;
@@ -12,15 +14,13 @@ header h2{
     font-size: 1.9em;
 }
 /*---- Content ----*/
-section{
+.cont{
     position: relative;
     width: 100%;
-    height: auto !important;
-    min-height: 678px;
-    max-height: 1446px;
     overflow: hidden;
+    z-index:2;
 }
-section article{
+.cont article{
     position: absolute;
     bottom: 50%;
     left: 50%;
@@ -104,43 +104,51 @@ section article{
 }
 @keyframes 'movement'{
     from{
-        width: 10px;
-        height: 10px;
+        width: 14px;
+        height: 14px;
         bottom: 50%;
         left: 50%;
-        margin-left: -5px;
-        margin-bottom: -5px;
+        margin-left: -7px;
+        margin-bottom: -7px;
         opacity: 0;
+        background: rgba(247,88,2,0.3);
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.3);
         animation-timing-function: linear;
     }
     25%{
-        width: 90px;
-        height: 90px;
+        width: 40px;
+        height: 40px;
         bottom: 50%;
         left: 50%;
-        margin-left: -45px;
-        margin-bottom: -45px;
-        opacity: 0.18;
+        margin-left: -20px;
+        margin-bottom: -20px;
+        opacity: 0.12;
+        background: rgba(247,88,2,0.75);
+        box-shadow: 0px 0px 30px 30px rgba(247,88,2,0.8);
         animation-timing-function: linear;
     }
     50%{
-        width: 180px;
-        height: 180px;
+        width: 150px;
+        height: 150px;
         bottom: 50%;
         left: 50%;
-        margin-bottom: -90px;
-        margin-left: -90px;
-        opacity: 0.35;
+        margin-bottom: -75px;
+        margin-left: -75px;
+        opacity: 0.24;
+        background: rgba(247,88,2,0.85);
+        box-shadow: 0px 0px 10px 10px rgba(247,88,2,0.9);
         animation-timing-function: linear;
     }
     75%{
-        width: 265px;
-        height: 265px;
+        width: 240px;
+        height: 240px;
         bottom: 50%;
         left: 50%;
-        margin-bottom: -132px;
-        margin-left: -132px;
-        opacity: 0.75;
+        margin-bottom: -120px;
+        margin-left: -120px;
+        opacity: 0.5;
+        background: rgba(247,88,2,0.9);
+        box-shadow: 0px 0px 5px 5px rgba(247,88,2,0.95);
         animation-timing-function: linear;
     }
     100%{
@@ -151,10 +159,15 @@ section article{
         margin-bottom: -175px;
         margin-left: -175px;
         opacity: 1;
+        background: rgba(247,88,2,1);
+        box-shadow: 0px 0px 3px 3px rgba(247,88,2,0.3);
         animation-timing-function: linear;
     }
 }
 footer{
+  position: relative;
   width: 100%;
-  height: 40px;
+  height: 55px;
+  border-top: 3px dashed #000000;
+  z-index: 3;
 }
