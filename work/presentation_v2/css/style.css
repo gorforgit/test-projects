@@ -24,10 +24,10 @@ header h2{
     position: absolute;
     bottom: 50%;
     left: 50%;
-    margin-bottom: -175px;
-    margin-left: -175px;
-    width: 350px;
-    height: 350px;
+    margin-bottom: -170px;
+    margin-left: -170px;
+    width: 340px;
+    height: 340px;
     background: #F75802;
     border-radius: 50%;
     opacity: 1;
@@ -90,12 +90,12 @@ header h2{
         -webkit-animation-timing-function: linear;
     }
     100%{
-        width: 350px;
-        height: 350px;
+        width: 340px;
+        height: 340px;
         bottom: 50%;
         left: 50%;
-        margin-bottom: -175px;
-        margin-left: -175px;
+        margin-bottom: -170px;
+        margin-left: -170px;
         opacity: 1;
         -webkit-animation-timing-function: linear;
         background: rgba(247,88,2,1);
@@ -152,12 +152,12 @@ header h2{
         animation-timing-function: linear;
     }
     100%{
-        width: 350px;
-        height: 350px;
+        width: 340px;
+        height: 340px;
         bottom: 50%;
         left: 50%;
-        margin-bottom: -175px;
-        margin-left: -175px;
+        margin-bottom: -170px;
+        margin-left: -170px;
         opacity: 1;
         background: rgba(247,88,2,1);
         box-shadow: 0px 0px 3px 3px rgba(247,88,2,0.3);

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69734d8-cc4c-46f1-bdce-ba0ddd71edcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/presentation_v2/index.html" afterPath="$PROJECT_DIR$/work/presentation_v2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/presentation_v2/css/style.css" afterPath="$PROJECT_DIR$/work/presentation_v2/css/style.css" />
     </list>
     <ignored path="test-projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +25,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="995" selection-end="1024" vertical-scroll-proportion="-21.576923">
+            <state line="15" column="59" selection-start="769" selection-end="769" vertical-scroll-proportion="-6.5">
               <folding />
             </state>
           </provider>
@@ -34,7 +34,7 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="16" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5055762">
+            <state line="155" column="18" selection-start="3896" selection-end="3896" vertical-scroll-proportion="3.2651796">
               <folding />
             </state>
           </provider>
@@ -58,6 +58,7 @@
         <option value="$PROJECT_DIR$/work/presentation.html" />
         <option value="$PROJECT_DIR$/work/css/style.css" />
         <option value="$PROJECT_DIR$/work/presentation_v2/index.html" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/css/style.css" />
       </list>
     </option>
   </component>
@@ -426,14 +427,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="995" selection-end="1024" vertical-scroll-proportion="-21.576923">
+        <state line="15" column="59" selection-start="769" selection-end="769" vertical-scroll-proportion="-6.5">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="16" selection-start="404" selection-end="404" vertical-scroll-proportion="0.5055762">
+        <state line="155" column="18" selection-start="3896" selection-end="3896" vertical-scroll-proportion="3.2651796">
           <folding />
         </state>
       </provider>
