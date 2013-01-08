@@ -8,11 +8,9 @@
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            $('.cont').append('<div class="empty"></div>');
             var footerHeight = $('footer').height();
             var containerHeight = $(document).height()-'105';
             $('.cont').css({'height':containerHeight});
-            $('.empty').css({'height':footerHeight});
             $('.footer').css({'margin-top':-footerHeight});
         })
     </script>
@@ -23,21 +21,11 @@
         <h2>Titeltekst</h2>
     </header>
     <section class="cont">
-        <article>
+        <div class="content-block">
+            <article>
 
-        </article>
-        <article>
-
-        </article>
-        <article>
-
-        </article>
-        <article>
-
-        </article>
-        <article>
-
-        </article>
+            </article>
+        </div>
     </section>
     <footer>
     </footer>
