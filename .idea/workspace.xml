@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e69734d8-cc4c-46f1-bdce-ba0ddd71edcb" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/work/presentation_v2/js/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/work/presentation_v2/one-column.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/work/presentation_v2/six-column.html" />
+      <change type="DELETED" beforePath="D:\Work\local-reposit\test-projects\work\presentation_v2\index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/presentation_v1/presentation.html" afterPath="$PROJECT_DIR$/work/presentation_v1/presentation.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/presentation_v2/css/style.css" afterPath="$PROJECT_DIR$/work/presentation_v2/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/work/presentation_v2/index.html" afterPath="$PROJECT_DIR$/work/presentation_v2/index.html" />
     </list>
     <ignored path="test-projects.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,20 +28,40 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
+      <file leaf-file-name="six-column.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/presentation_v2/six-column.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.19590269">
+            <state line="12" column="12" selection-start="485" selection-end="485" vertical-scroll-proportion="-7.8461537">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="one-column.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/presentation_v2/one-column.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="-18.307692">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="9" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0">
+            <state line="71" column="56" selection-start="1483" selection-end="1483" vertical-scroll-proportion="1.0421313">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/work/presentation_v2/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="4" selection-start="317" selection-end="1000" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#1137#1284#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -59,8 +83,13 @@
         <option value="$PROJECT_DIR$/work/css/reset.css" />
         <option value="$PROJECT_DIR$/work/presentation.html" />
         <option value="$PROJECT_DIR$/work/css/style.css" />
-        <option value="$PROJECT_DIR$/work/presentation_v2/css/style.css" />
         <option value="$PROJECT_DIR$/work/presentation_v2/index.html" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/css/six.css" />
+        <option value="$PROJECT_DIR$/work/presentation_v1/presentation.html" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/one-column.html" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/js/main.js" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/six-column.html" />
+        <option value="$PROJECT_DIR$/work/presentation_v2/css/style.css" />
       </list>
     </option>
   </component>
@@ -130,6 +159,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="presentation_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test-projects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="work" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="presentation_v2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -251,10 +302,22 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <PyConsoleSettings />
+    </option>
+    <option name="myDjangoConsoleState">
+      <PyConsoleSettings />
+    </option>
+  </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\local-reposit\test-projects\work\presentation_v2\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Work\local-reposit\test-projects\work\presentation_v1" />
       <recent name="D:\Work\local-reposit\test-projects\Canvas" />
@@ -278,6 +341,13 @@
       <option name="TEST_TYPE" value="TEST_SCRIPT" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <list size="0" />
@@ -317,7 +387,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14829822" sideWeight="0.6706731" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15964344" sideWeight="0.6706731" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32932693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -385,34 +455,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="59" selection-start="769" selection-end="769" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="155" column="18" selection-start="3896" selection-end="3896" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Canvas/basics/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="28" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" />
@@ -428,31 +470,53 @@
         <state line="38" column="7" selection-start="1096" selection-end="1096" vertical-scroll-proportion="0.8271447" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v1/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="38" selection-start="699" selection-end="699" vertical-scroll-proportion="0.7372986" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v1/presentation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="1057" vertical-scroll-proportion="-0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="9" selection-start="1969" selection-end="1969" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/work/presentation_v2/index.html">
+    <entry file="file://$PROJECT_DIR$/work/presentation_v1/presentation.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="424" selection-end="424" vertical-scroll-proportion="0.19590269">
+        <state line="20" column="4" selection-start="814" selection-end="1040" vertical-scroll-proportion="0.4353393">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/presentation_v1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="8" selection-start="1569" selection-end="1876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/presentation_v2/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="4" selection-start="317" selection-end="1000" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1137#1284#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/presentation_v2/one-column.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="995" selection-end="995" vertical-scroll-proportion="-18.307692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/presentation_v2/six-column.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="12" selection-start="485" selection-end="485" vertical-scroll-proportion="-7.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/work/presentation_v2/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="56" selection-start="1483" selection-end="1483" vertical-scroll-proportion="1.0421313">
           <folding />
         </state>
       </provider>
