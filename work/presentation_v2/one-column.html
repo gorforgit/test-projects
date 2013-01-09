@@ -6,15 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(function(){
-            var footerHeight = $('footer').height();
-            var containerHeight = $(document).height()-'100';
-            $('.cont').css({'height':containerHeight});
-            $('.cont ul').css({'height':containerHeight});
-            $('.footer').css({'margin-top':-footerHeight});
-        })
-    </script>
     <script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
@@ -22,12 +13,10 @@
     <h2>Titeltekst</h2>
 </header>
 <section class="cont">
-    <ul>
-        <li class="content-block">
+        <div class="content-block">
             <article>
             </article>
-        </li>
-    </ul>
+        </div>
 </section>
 <footer>
 </footer>

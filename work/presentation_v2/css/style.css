@@ -20,20 +20,15 @@ header h2{
     overflow: hidden;
     z-index:2;
 }
-.cont ul{
-    position: relative;
-    display: block;
-    list-style: none;
-    width: 100%;
-}
-.cont ul .content-block{
+
+.cont .content-block{
     position: absolute;
     top: 50%;
     left: 50%;
     width: 290px;
     height: 290px;
 }
-.cont ul .content-block article{
+.cont .content-block article{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -42,16 +37,54 @@ header h2{
     width: 270px;
     height: 270px;
     background: #F75802;
+    -webkit-border-radius: 50%;
     border-radius: 50%;
-    -webkit-animation: animate-blokcs 1.0s ease-out backwards;
+    -webkit-animation-name: animate-blocks;
+    -webkit-animation-duration: 0.75s;
+    -webkit-animation-timing-function: easy-out;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
 }
-@-webkit-keyframes animate-blokcs{
+.cont .content-block:nth-child(1),
+.cont .content-block:nth-child(2),
+.cont .content-block:nth-child(3),
+.cont .content-block:nth-child(4),
+.cont .content-block:nth-child(5),
+.cont .content-block:nth-child(6){
+    -webkit-animation-name: animate-blocks;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: easy-out;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+}
+.cont .content-block:nth-child(1){
+    -webkit-animation-delay: 0s;
+}
+.cont .content-block:nth-child(2){
+    -webkit-animation-delay: 1.0s;
+}
+.cont .content-block:nth-child(3){
+    -webkit-animation-delay: 2.0s;
+}
+.cont .content-block:nth-child(4){
+    -webkit-animation-delay: 3.0s;
+}
+.cont .content-block:nth-child(5){
+    -webkit-animation-delay: 4.0s;
+}
+.cont .content-block:nth-child(6){
+    -webkit-animation-delay: 5.0s;
+}
+@-webkit-keyframes animate-blocks{
     from{
         width: 20px;
         height: 20px;
         margin-left: -10px;
         margin-top: -10px;
         opacity: 0;
+        border-radius: 50%;
         box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.3);
     }
     50%{
@@ -60,6 +93,7 @@ header h2{
         margin-top: -75px;
         margin-left: -75px;
         opacity: 0.25;
+        border-radius: 50%;
         box-shadow: 0px 0px 10px 10px rgba(247,88,2,1);
     }
     to{
@@ -69,6 +103,7 @@ header h2{
         margin-left: -135px;
         background: #F75802;
         opacity: 1;
+        border-radius: 50%;
         box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
     }
 }
