@@ -1,0 +1,262 @@
+body{
+    color: #f0f0f0;
+    font-family: Arial,sans-serif;
+}
+header{
+    position:relative;
+    width: 100%;
+    height: 45px;
+    background: #F75802;
+    z-index:1;
+}
+header h2{
+    padding: 5px 20px 5px 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.9em;
+}
+.container{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index:2;
+}
+/*----------------------------- One column -----------------------------*/
+.one-column{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.one-column .circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -220px;
+    margin-top: -220px;
+    width: 440px;
+    height: 440px;
+    background: #F75802;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-animation-name: one-column-animate;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-timing-function: easy-out;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+}
+.one-column .circle p{
+    position: absolute;
+    margin: 62px;
+    font-size: 18px;
+    width: 316px;
+    min-height: 0px;
+    max-height: 316px;
+    text-align: center;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    text-indent: 10px;
+}
+@-webkit-keyframes one-column-animate{
+    from{
+        width: 20px;
+        height: 20px;
+        margin-left: -10px;
+        margin-top: -10px;
+        opacity: 0;
+        border-radius: 50%;
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.3);
+    }
+    to{
+        width: 440px;
+        height: 440px;
+        margin-top: -220px;
+        margin-left: -220px;
+        opacity: 1;
+        border-radius: 50%;
+        box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+    }
+}
+/*----------------------------- One column end -----------------------------*/
+
+/*----------------------------- Six column -----------------------------*/
+.six-column{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.six-column .circle{
+    position: absolute;
+    width: 270px;
+    height: 270px;
+    background: #F75802;
+    border-radius: 50%;
+    overflow: hidden;
+    -webkit-animation-fill-mode: backwards;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-timing-function: easy-out;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-play-state: running;
+}
+.six-column .circle p{
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+    width: 190px;
+    min-height: 0px;
+    max-height: 190px;
+    text-align: center;
+    margin: 40px;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    text-indent: 10px;
+}
+.six-column .circle:nth-child(1){
+    top: 50%;
+    left: 50%;
+    margin-top: -107px;
+    margin-left: -125px;
+    -webkit-animation-name: six-column1;
+    -webkit-animation-delay: 0s;
+}
+.six-column .circle:nth-child(2){
+    top: 50%;
+    left: 50%;
+    margin-top: -385px;
+    margin-left: -125px;
+    -webkit-animation-name: six-column2;
+    -webkit-animation-delay: 1s;
+}
+.six-column .circle:nth-child(3){
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: 130px;
+    -webkit-animation-name: six-column3;
+    -webkit-animation-delay: 2s;
+}
+.six-column .circle:nth-child(4){
+    top: 50%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: 54px;
+    -webkit-animation-name: six-column4;
+    -webkit-animation-delay: 3s;
+}
+.six-column .circle:nth-child(5){
+    top: 50%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -308px;
+    -webkit-animation-name: six-column5;
+    -webkit-animation-delay: 4s;
+}
+.six-column .circle:nth-child(6){
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -380px;
+    -webkit-animation-name: six-column6;
+    -webkit-animation-delay: 5s;
+}
+@-webkit-keyframes six-column1{
+    from{
+        width: 30px;
+        height: 30px;
+        margin-top: -10px;
+        margin-left: -10px;
+        opacity: 0;
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+    }
+    to{
+        width: 270px;
+        height: 270px;
+        opacity: 1;
+        box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+    }
+}
+@-webkit-keyframes six-column2{
+     from{
+         width: 30px;
+         height: 30px;
+         margin-top: -285px;
+         margin-left: -10px;
+         opacity: 0;
+         box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+     }
+     to{
+         width: 270px;
+         height: 270px;
+         opacity: 1;
+         box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+     }
+ }
+@-webkit-keyframes six-column3{
+    from{
+        width: 30px;
+        height: 30px;
+        margin-top: -125px;
+        margin-left: 230px;
+        opacity: 0;
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+    }
+    to{
+        width: 270px;
+        height: 270px;
+        opacity: 1;
+        box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+    }
+}
+@-webkit-keyframes six-column4{
+    from{
+        width: 30px;
+        height: 30px;
+        margin-top: 205px;
+        margin-left: 154px;
+        opacity: 0;
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+    }
+    to{
+        width: 270px;
+        height: 270px;
+        opacity: 1;
+        box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+    }
+}
+@-webkit-keyframes six-column5{
+     from{
+         width: 30px;
+         height: 30px;
+         margin-top: 205px;
+         margin-left: -208px;
+         opacity: 0;
+         box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+     }
+     to{
+         width: 270px;
+         height: 270px;
+         opacity: 1;
+         box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+     }
+ }
+@-webkit-keyframes six-column6{
+    from{
+        width: 30px;
+        height: 30px;
+        margin-top: -125px;
+        margin-left: -280px;
+        opacity: 0;
+        box-shadow: 0px 0px 50px 50px rgba(247,88,2,0.45);
+    }
+    to{
+        width: 270px;
+        height: 270px;
+        opacity: 1;
+        box-shadow: 0px 0px 1px 1px rgba(247,88,2,0.35);
+    }
+}
+/*----------------------------- Six column end -----------------------------*/
+footer{
+  position: relative;
+  width: 100%;
+  height: 55px;
+  border-top: 3px dashed #000000;
+  z-index: 3;
+}
