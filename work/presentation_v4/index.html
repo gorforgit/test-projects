@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Main page</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all">
+</head>
+<body>
+<header>
+    <h2>Titeltekst</h2>
+</header>
+<div class="panel">
+    <form name="settings" class="set">
+        <table>
+            <tbody>
+            <tr>
+                <td>
+                    <span class="set-name">Form:</span>
+                </td>
+                <td>
+                    <div id="input-radio">
+                        <input type="radio" name="presentation-form" value="circle" id="circle" checked="checked">
+                        <label for="circle">
+                            <span>Circle</span>
+                        </label>
+                        <input type="radio" name="presentation-form" value="rect" id="rect">
+                        <label for="rect">
+                            <span>Rect</span>
+                        </label>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="slider elements-slider"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span class="set-name">Elements:</span>
+                    <div id="elements-result"></div>
+                    <input type="hidden" id="elements-numb">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <div class="slider duration-slider"></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <span class="set-name">Duration:</span>
+                    <div id="duration-result"><span id="duration-time"></span>s</div>
+                    <input type="hidden" id="duration-numb">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                </td>
+                <td>
+                    <input type="submit" value="Apply" id="apply">
+                </td>
+            </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+<section class="container">
+    <!-- One circle -->
+    <div class="one-column slide">
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+    </div>
+    <!-- Two circle -->
+    <div class="two-column slide">
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+    <!-- Three circle -->
+    <div class="three-column slide">
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+    </div>
+    <!-- Four circle -->
+    <div class="four-column slide">
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+    </div>
+    <!-- Five circle -->
+        <div class="five-column slide">
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+            </div>
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+            </div>
+            <div class="circle">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+            </div>
+        </div>
+    <!-- Six circle -->
+    <div class="six-column slide">
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam cursus. Morbi ut mi.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id.</p>
+        </div>
+        <div class="circle">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+    <!-- One rectangle -->
+    <div class="one-rect slide">
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Two rects -->
+    <div class="two-rects slide">
+        <div class="rect">
+             <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Three rects -->
+    <div class="three-rects slide">
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Four rects -->
+    <div class="four-rects slide">
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Five rects -->
+    <div class="five-rects slide">
+        <div class="five-top">
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+        <div class="five-bottom">
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Six rects -->
+    <div class="six-rects slide">
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Seven rects -->
+    <div class="seven-rects slide">
+        <div class="seven-top">
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+        <div class="seven-bottom">
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="rect">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- Eight rects -->
+    <div class="eight-rects slide">
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+        <div class="rect">
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.
+            </p>
+        </div>
+    </div>
+    <!-- Nine rectangles -->
+    <div class="nine-rects slide">
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="rect">
+            <p>Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum.</p>
+        </div>
+        <div class="rect">
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Nam cursus. Morbi ut mi. Nullam enim leo, egestas id, condimentum at, laoreet mattis, massa.Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
+</section>
+<footer>
+</footer>
+</body>
+</html>
